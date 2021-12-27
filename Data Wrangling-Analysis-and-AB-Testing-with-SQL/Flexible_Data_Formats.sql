@@ -14,7 +14,7 @@ FROM dsv1069.events
 
 WHERE event_name = 'view_item'
 
-ORDER BY event_id;
+ORDER BY 1;
 
 -- Exercise 2:
 -- Goal: Write a query to format the view_item event into a table with the appropriate columns
