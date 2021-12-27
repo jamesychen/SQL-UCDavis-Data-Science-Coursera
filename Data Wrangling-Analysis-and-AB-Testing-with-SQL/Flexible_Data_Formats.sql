@@ -3,7 +3,8 @@
 -- Exercise 1:
 -- Goal: Write a query to format the view_item event into a table with the appropriate columns
 
-SELECT event_id,
+SELECT 
+  event_id,
   event_time,
   user_id,
   platform,
@@ -19,7 +20,8 @@ ORDER BY event_id;
 -- Goal: Write a query to format the view_item event into a table with the appropriate columns
 -- (This replicates what we had in the slides, but it is missing a column)
 
-SELECT event_id,
+SELECT 
+	event_id,
 	event_time,
 	user_id,
 	platform,
